@@ -1,0 +1,504 @@
+
+header{
+    background-color: white;
+    height: 80px;
+   display: flex;   
+   width: 1420px;
+
+    /* border: 1px solid grey; */
+}
+header .logo-name{
+    width: 50%;
+   display: flex;
+  margin: 5px;
+    justify-content: center;
+}
+header .logo-name .logo{
+    height: 54px;
+    width: 54px;
+    margin-right: 5px;
+    background-color: rgb(22, 22, 70);
+    border-radius: 50%;
+}
+header .logo-name .name .U{
+    color: rgb(47, 47, 97);
+   font-weight: bolder;
+   margin-top: 4px;
+   font-size: 1.2rem;
+   width: 300px;
+   /* margin-right: 50px; */
+}
+header .logo-name .name .L{
+    margin-top: 2px;
+    color: rgb(43, 43, 80);
+   font-size: 1.2rem;
+}
+header .home,.about,.architect,.contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: rgb(161, 161, 194);
+font-size:1.1rem;
+width: 120px;
+margin: 5px;
+}
+header .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header .login button{
+    height: 35px;
+    background-color: rgb(39, 39, 89);
+    padding: 3px 20px;
+    color: white;
+    font-size:1.0rem;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+main .first .img1{
+    height: 560px;
+    background-image: url("images/first.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+width: 1420px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .first .inner{
+background-color: rgba(79, 79, 135, 0.5);
+width: 42%;
+padding: 25px;
+color: white;
+font-weight: bold;
+height: 35%;
+font-size: 3.9rem;
+text-align: center;
+display: grid;
+display: flex;
+margin-top: -75px;
+height: 210px;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+}
+main .first .searchbar{
+    border: 1px solid gray;
+    width: 68%;
+    border-radius: 10px ;
+    display: flex;
+    height: 58px;
+    align-items: center;
+    margin-bottom: -280px;
+    background-color: white;
+}
+main .first .searchbar .text{
+    color: rgb(26, 26, 94);
+    font-weight: 1000;
+    margin: 0px 25px 0px 25px;
+    font-size: 1.4rem;
+}
+main .first .searchbar .name,.location{
+    border: 1px solid rgb(196, 191, 191);
+    width: 35%;
+    height: 44px;
+    display: flex;
+}
+main .first .searchbar .name input{
+    width: 85%;
+    border: white;
+    font-size: 1rem;
+    color: rgb(205, 199, 199);
+
+}
+main .first .searchbar .location input{
+    width: 85%;
+    border: white;
+    font-size: 1rem;
+    color: rgb(205, 199, 199);
+}
+main .first .searchbar .button2 button{
+    height:44px ;
+    width: 110px;
+    margin-left: 10px;
+    background-color: rgb(41, 41, 136);
+ border-radius: 5px;
+    color: white;
+}
+main .second{
+    background-color: rgb(241, 238, 241);
+    display: flex;
+    width: 1420px;
+    padding: 75px 0px ;
+    flex-direction: column;
+    align-items: center;
+}
+main .second .heading{
+    font-size: 1.9rem;
+    font-weight: bolder;
+    display: flex;
+    margin: 50px 0px 80px;
+}
+main .second .heading .firstpart{
+    color: rgb(18, 18, 71);
+    margin-right: 10px;
+}
+main .second .heading .secondpart{
+    color: rgba(117, 105, 105, 0.942);
+}
+main .second .elements{
+    display: flex;
+}
+main .second .elements .search,.reachout,.consultation{
+    border: 1px solid rgb(226, 211, 211);
+    margin: 0px 10px;
+    display: flex;
+    padding: 27px 40px 0px 40px;
+    background-color: white;
+    width: 240px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-name{
+    display: flex;
+    align-items: center;
+    width: 240px;
+}
+.no-name .no{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: -15px;
+    color: rgb(238, 231, 231);
+}
+.no-name .name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(18, 18, 71);
+}
+main .third
+{
+    background-color: rgba(16, 16, 150, 0.953);
+    height: 520px;
+    width: 1420px;
+    display: flex;
+    padding: 70px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+main .third .head1,.head2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+.head2{
+    margin-top: 2px;
+margin-bottom: 40px;
+}
+main .third .first-last,.email-contact{
+    display: flex;
+    margin: 10px;
+}
+main .third .first-last input{
+    margin: 8px 20px 10px 7px;
+    height: 45px;
+    border-radius: 10px;
+    width: 257px;
+    padding: 0px 0px 0px 20px;
+    font-size: 1.1rem;
+}
+main .third .email-contact input{
+    margin: 1px 20px 10px 7px;
+    height: 45px;
+    border-radius: 10px;
+    width: 257px;
+    padding: 0px 0px 0px 20px;
+    font-size: 1.1rem;
+}
+main .third .comment{
+    height: 140px;
+    width: 563px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: -18px;
+    padding: 0px 0px 0px 20px;
+}
+main .third .submit button{
+    width: 190px;
+    height: 52px;
+    background-color: rgb(13, 13, 76);
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 35px;
+    font-size: 1.2rem;
+    color: white;
+}
+main .fourth{    
+    background-color: rgb(243, 245, 247);
+    height: 620;
+    display: flex;
+    width: 1420px;
+    padding: 25px 0px ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+main .fourth .head2{
+    display: flex;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    margin: 25px 0px;
+}
+main .fourth .head2 .h1{
+    color: rgb(18, 18, 71);
+    margin: 40px 7px;
+
+}
+main .fourth .head2 .h2{
+    color: rgb(86, 80, 80);
+    margin: 40px 6px;
+
+}
+
+main .fourth .fourthelements .profile{
+    display: flex;
+    width: 1000px;
+   overflow: hidden;
+   padding: 30px;
+}
+main .fourth .fourthelements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1050px;
+}
+main .fourth .fourthelements .profile-card{
+flex: 1;
+padding: 20px;
+
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin: 10px;
+background-color: #fff;
+}
+main .fourth .fourthelements .carousel-button {
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    height: 50px;
+    align-items: center;
+    margin: 0px 20px;
+    padding-bottom: 10px;
+    width: 90px;
+}
+main .fourth .fourthelements .carousel-button .left{
+    border-bottom-left-radius: 50px;
+
+    border-top-left-radius: 50px;
+}
+main .fourth .button3 button{
+    width: 225px;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: rgb(19, 19, 94);
+    border: 1px solid white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+}
+main .fifth{
+    background-image: url("images/fifth.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 310px;
+    width: 1420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .fifth .head3{
+font-size: 1.8rem;
+color: white;
+font-weight: bold;
+margin: 20px;
+}
+main .fifth .inputemail{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .fifth .inputemail input{
+    height: 67px;
+    border-radius: 10px;
+    width: 490px;
+    margin-right: 8px;
+    font-weight: bold;
+    padding: 0px 10px;
+    font-size: 1rem;
+}
+main .fifth .inputemail button{
+    height: 67px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    background-color: rgb(12, 12, 118);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    width: 210px;
+}
+main .sixth{
+    height: 350px;
+    color: white;
+    padding: 30px;
+    width: 1360px;
+    display: flex;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(12, 12, 118);
+}
+main .sixth .about{
+    display: flex;
+    margin: 30px 0px 50px 0px;
+    width: 1400px;
+
+    flex-direction: row;
+    align-items: center;    color: white;
+
+}
+main .sixth .about .b1,.b2,.b3{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+}
+main .sixth .about .b1 .r1{
+width: 300px;
+height: 70px;
+margin-bottom: 15px;
+display: flex;
+flex-direction: row;
+}
+main .sixth .about .b2 .r1{
+  width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+ }
+    main .sixth .about .b3 .r1{
+        height: 70px;
+        display: flex;
+        width: 200px;
+        flex-direction: row;
+        }
+main .sixth .about .b1 .r1 .logo2{
+height: 35px;
+width: 35px;
+margin: 0px 5px 0px 0px;
+border-radius: 50%;
+background-color: white;
+}
+main .sixth .about .b1 .r1 .namelogo .p1{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+main .sixth .about .b1 .r2 {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 20px;
+}
+main .sixth .about .b2 .r1 {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+main .sixth .about .b3 .r2 .add {
+   width: 300px;
+   text-align: start;
+   margin-bottom: 5px;
+}
+
+main .sixth .about .b2 .r2,.r3,.r4,.r5 a,a,a,a{
+text-decoration: none;
+color: white;
+/* width: 250px; */
+margin-bottom: 8px;
+text-align: start;
+
+}
+main .sixth .about .b2 .r5 a{
+    text-decoration: none;
+    color: white;
+    /* width: 250px; */
+    margin-bottom: 8px;
+    text-align: start;
+    
+    }
+main .sixth .about .b1 .r3{
+    display: flex;
+    flex-direction: row;
+}
+
+main .sixth .about .b1 .r3 .fb img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 0px;
+}
+main .sixth .about .b1 .r3 .tt img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+main .sixth .about .b1 .r3 .ig img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+main .sixth .about .b1 .r3 .li img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+main .sixth .about .b3 .r2,.r3,.r4{
+    display: flex;
+    flex-direction: row;
+}
+main .sixth .about .b3 .r2 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+border-radius: 50px;
+}
+main .sixth .about .b3 .r3 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+border-radius: 50px;
+}
+main .sixth .about .b3 .r4 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
